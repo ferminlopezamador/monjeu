@@ -30,7 +30,7 @@ function displayColumnElementAndMakeDraggable(element){
 // Définir les combinaisons au moyen de trois parametres :
 // 'element' est l'objet sur lequel 'accept' va être droppé pour créer 'result' 
 function makeDroppableAndDefineResult(element,accept,result){
-  $('div.' + element).droppable({
+  $('div.divColonne.' + element).droppable({
         accept: '.' + accept,
         drop: function(event, ui) {
           displayColumnElementAndMakeDraggable(result);
@@ -52,7 +52,7 @@ function makeDroppableAndDefineResult(element,accept,result){
 
 // Enlever la faculté à être droppable à un élément 
 function makeUndroppable(element) {
-  $('div.' + element).droppable({
+  $('div.divColonne.' + element).droppable({
     accept: ' ',
   });
   $('div.divColonne').attr('style','position: relative; z-index: 1;');
@@ -124,7 +124,7 @@ $('a#buttonIntro').click(function(){
 
 //definit les interactions et lance une dialbox3
 function makeDroppableDefineResultAndDialBox3(element,accept,result){
-  $('div.' + element).droppable({
+  $('div.divColonne.' + element).droppable({
         accept: '.' + accept,
         drop: function(event, ui) {
           displayColumnElementAndMakeDraggable(result);
@@ -169,7 +169,7 @@ function createDialBox3(){
 }
 
 function makeDroppableAndDefineResultDesVect(element,accept,result){
-  $('div.' + element).droppable({
+  $('div.divColonne.' + element).droppable({
         accept: '.' + accept,
         drop: function(event, ui) {
           displayColumnElementAndMakeDraggable(result);
@@ -200,7 +200,7 @@ function makeDroppableAndDefineResultDesVect(element,accept,result){
 }
 
 function makeDroppableDefineResultAndDialBox5(element,accept){
-  $('div.' + element).droppable({
+  $('div.divColonne.' + element).droppable({
         accept: '.' + accept,
         drop: function(event, ui) {
           makeUndroppable(element);
@@ -242,7 +242,7 @@ function createDialBox45(){
 }
 
 function makeDroppableAndDefineResultDev(element,accept){
-  $('div.' + element).droppable({
+  $('div.divColonne.' + element).droppable({
         accept: '.' + accept,
         drop: function(event, ui) {
           makeUndroppable(element);
@@ -287,7 +287,7 @@ function createDialBox5(){
 }
 
 function makeDroppableAndDefineResultBoot(element,accept){
-  $('div.' + element).droppable({
+  $('div.divColonne.' + element).droppable({
         accept: '.' + accept,
         drop: function(event, ui) {
           displayColumnElementAndMakeDraggable('bootstrap');
@@ -322,7 +322,7 @@ function createDialBox6(){
   });
 }
 function makeDroppableDefineResultAndDialBox7(element,accept){
-  $('div.' + element).droppable({
+  $('div.divColonne.' + element).droppable({
         accept: '.' + accept,
         drop: function(event, ui) {
           makeUndroppable(element);
@@ -367,7 +367,7 @@ function createDialBox7(){
 }
 
 function makeDroppableAndDefineResultBack(element,accept){
-  $('div.' + element).droppable({
+  $('div.divColonne.' + element).droppable({
         accept: '.' + accept,
         drop: function(event, ui) {
           displayColumnElementAndMakeDraggable('serveur');
