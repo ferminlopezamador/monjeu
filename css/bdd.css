@@ -1,0 +1,260 @@
+.red {
+    background-color: red;
+  }
+  .red p {
+    margin: 0;
+  }
+  .red p:after {
+    content: 'red';
+  }
+  .blue {
+    background-color: blue;
+  }
+  .green {
+    background-color: green;
+  }
+
+/* Etat de base */
+.no-display {
+  display: none;
+}
+
+/* DialBox */
+.dialBox1 p:after {
+  content: 'début du jeu';
+}
+.dialBox2 p:after {
+  content: 'deuxième élément';
+}
+.dialBox3 p:after {
+  content: 'après première fusion';
+}
+.dialBox4 p:after {
+  content: 'après dessin vectoriel -> digital';
+}
+.dialBox4-5 p:after {
+  content: 'après ux et dev';
+}
+.dialBox5 p:after {
+  content: 'après digital -> langages';
+}
+.dialBox6 p:after {
+  content: 'framework';
+}
+.dialBox7 p:after {
+  content: 'après framework -> frameworks js';
+}
+.dialBox8 p:after {
+  content: 'après serveur -> langages back';
+}
+
+/* Contenu */
+.dessin {
+  background-image: url('../img/dessin.svg');
+} 
+  .dessin h2:after {
+    content: 'Le Dessin';
+  }
+  .dessin p:after {
+    content:"C'est l'élémént de base, le début de tout et la plus grande passion de ma vie :)";
+  }
+
+.angular {
+  background-image: url('../img/Angular.svg');
+} 
+  .angular h2:after {
+    content: 'Angular';
+  }
+  .angular p:after {
+    content:'Framework open-source basé sur Typescript, lui-même basé sur JAVASCRIPT, son grand-père.';
+  }
+
+.bootstrap {
+  background-image: url('../img/bootstrap.svg');
+} 
+  .bootstrap h2:after {
+    content: 'Bootstrap';
+  }
+  .bootstrap p:after {
+    content:'Framework CSS et JAVASCRIPT développé par Twitter. Pour faire du GRAPHISME, des animations...';
+  }
+
+.css3 {
+  background-image: url('../img/css3.svg');
+} 
+  .css3 h2:after {
+    content: 'CSS';
+  }
+  .css3 p:after {
+    content:'Langages informatique de mise en forme. Il met des couleurs dans ton navigateur !';
+  }
+
+.dessin-vectoriel {
+  background-image: url('../img/dessin-vectoriel.svg');
+} 
+  .dessin-vectoriel h2:after {
+    content: 'Le dessin véctoriel';
+  }
+  .dessin-vectoriel p:after {
+    content:"J'adore faire du DESSIN avec ILLUSTRATOR. Idéal pour faires des logos, des pictos, des icônes...";
+  }
+
+.developpement {
+  background-image: url('../img/dev.svg');
+} 
+  .developpement h2:after {
+    content: 'Le développement';
+  }
+  .developpement p:after {
+    content:"Tous les codes de ta vie dans une discipline réunis, ton langages, ton éditeur...";
+  }
+
+.digital {
+  background-image: url('../img/digital.svg');
+} 
+  .digital h2:after {
+    content: 'Le Digital';
+  }
+  .digital p:after {
+    content:"L'UX, le DEVELOPPEMENT, le webdesign... toutes ces disciplines font partie du DIGITAL.";
+  }
+
+.formation {
+  background-image: url('../img/formation.svg');
+} 
+  .formation h2:after {
+    content: 'La Formation ';
+  }
+  .formation p:after {
+    content:"L'élément fondamental. Combinez cet élément avec les autres.";
+  }
+
+.framework {
+  background-image: url('../img/framework.svg');
+} 
+  .framework h2:after {
+    content: 'Le Framework';
+  }
+  .framework p:after {
+    content:'La boîte à outil informatique, pour construire des applications plus simplement.';
+  }
+
+.graphisme {
+  background-image: url('../img/graphisme.svg');
+} 
+  .graphisme h2:after {
+    content: 'Le Graphisme';
+  }
+  .graphisme p:after {
+    content:"L'art de mettre en forme l'image,le texte et le DESSIN.";
+  }
+
+.html5 {
+  background-image: url('../img/html5.svg');
+} 
+  .html5 h2:after {
+    content: 'HTML5';
+  }
+  .html5 p:after {
+    content:'Langage de balisage. Il permet de structurer les information visibles sur la page';
+  }
+
+.photoshop {
+  background-image: url('../img/photoshop.svg');
+} 
+  .photoshop h2:after {
+    content: 'photoshop';
+  }
+  .photoshop p:after {
+    content:'Logiciel de retouche et de création. Pour faire des montages photos avec la tête de tes amis :)';
+  }
+
+.illustrator {
+  background-image: url('../img/illustrator.svg');
+} 
+  .illustrator h2:after {
+    content: 'Illustrator';
+  }
+  .illustrator p:after {
+    content:"Logiciel de DESSIN VECTORIEL. L'outil idéal pour utiliser la courbe de Bézier.";
+  }
+
+.indesign {
+  background-image: url('../img/indesign.svg');
+} 
+  .indesign h2:after {
+    content: 'Indesign';
+  }
+  .indesign p:after {
+    content:"Logiciel de mise en page. Pour marier le texte et l'image";
+  }
+
+.javascript {
+  background-image: url('../img/javascript.svg');
+} 
+  .javascript h2:after {
+    content: 'JavaScript';
+  }
+  .javascript p:after {
+    content:"Langage de programmation pour les pages web et les SERVEURS. Polyvalent, déclinable, indispensable !";
+  }
+
+.jquery {
+  background-image: url('../img/jquery.svg');
+} 
+  .jquery h2:after {
+    content: 'Jquery';
+  }
+  .jquery p:after {
+    content:"Framework JAVASCRIPT pour le front-end. Un des plus utilisés, un must !";
+  }
+
+.mongodb {
+  background-image: url('../img/mongodb.svg');
+} 
+  .mongodb h2:after {
+    content: 'MongoDB';
+  }
+  .mongodb p:after {
+    content:"Système de gestion de base de donnée.";
+  }
+
+.nodejs {
+  background-image: url('../img/nodejs.svg');
+} 
+  .nodejs h2:after {
+    content: 'NodeJS';
+  }
+  .nodejs p:after {
+    content:"Système permettant permettant l’exécution de JAVASCRIPT côté SERVEUR.";
+  }
+
+.react {
+  background-image: url('../img/react.svg');
+} 
+  .react h2:after {
+    content: 'React';
+  }
+  .react p:after {
+    content:"Bibliothèque JAVASCRIPT développée par Facebook. C'est la bibliothèque du moment.";
+  }
+
+.serveur {
+  background-image: url('../img/serveur.svg');
+} 
+  .serveur h2:after {
+    content: 'Serveur';
+  }
+  .serveur p:after {
+    content:'Ordinateur lointain qui stocke les fichiers que tu vois sur ton navigateur.';
+  }
+
+.ux {
+  background-image: url('../img/ux.svg');
+} 
+  .ux h2:after {
+    content: "L'UX design";
+  }
+  .ux p:after {
+    content:"Ensemble de règle et de techniques qui permettent d'améliorer l'expérience utilisateur.";
+  }

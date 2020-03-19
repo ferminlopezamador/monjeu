@@ -1,0 +1,276 @@
+/* styles contours */
+.st0 {
+  fill: none;
+  stroke: #211a13;
+  stroke-width: 200;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st1 {
+  fill: none;
+  stroke: #e4b17a;
+  stroke-width: 200;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st2 {
+  fill: none;
+  stroke: #e4b17a;
+  stroke-width: 50;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st3 {
+  fill: none;
+  stroke: #e4b17a;
+  stroke-width: 150;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st4 {
+  fill: none;
+  stroke: #d4145a;
+  stroke-width: 20;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st5 {
+  fill: none;
+  stroke: #a4235c;
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st6 {
+  fill: none;
+  stroke: #f14b94;
+  stroke-width: 40;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st7 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 15;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st8 {
+  fill: none;
+  stroke: #f14b94;
+  stroke-width: 60;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st9 {
+  fill: none;
+  stroke: #211a13;
+  stroke-width: 20;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st10 {
+  fill: none;
+  stroke: #42210b;
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st11 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 40;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st12 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 20;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  animation:look 10s ease infinite;
+}
+.st13 {
+  fill: none;
+  stroke: #211a13;
+  stroke-width: 30;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st14 {
+  fill: none;
+  stroke: #211a13;
+  stroke-width: 60;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.st15{
+    fill:none;
+    stroke:#211A13;
+    stroke-width:20;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+}
+.st16{
+    fill:none;
+    stroke:#42210B;
+    stroke-width:10;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+}
+.st17{
+    fill:none;
+    stroke:#FFFFFF;
+    stroke-width:40;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+}
+.st18{
+    fill:none;
+    stroke:#000000;
+    stroke-width:20;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+}
+.st19{
+    fill:none;
+    stroke:#211A13;
+    stroke-width:30;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+}
+.st20{
+    fill:none;
+    stroke:#211A13;
+    stroke-width:60;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+}
+
+/* Ensembles */
+#eyessemiclosed {
+    opacity: 0;
+}
+#eyesClosed1 {
+    opacity: 0;
+}
+#eyes {
+    opacity: 1;
+    animation: closeeyes 4s ease infinite;
+}
+#moutha {
+    opacity: 0;
+    animation: moutha 1s ease ;
+}
+#mouthi {
+    opacity: 0;
+}
+#mouthf {
+    opacity: 0;
+}
+#mouthm {
+    opacity: 1;
+}
+#jaw {
+    animation: jaw 0.5s 1s ease;
+}
+#brows {
+    animation: brows 1s 1s ease ;
+}
+
+/* Animation elements */
+@keyframes look{
+    from {
+        transform: translateX(0);
+    }
+    10% {
+        transform: translateX(0);
+    }
+    11% {
+        transform: translateX(10px);
+    }
+    30% {
+        transform: translateX(10px);
+    }
+    31% {
+        transform: translateX(-2px);
+    }
+    60% {
+        transform: translateX(-2px);
+    }
+    61% {
+        transform: translateX(0px);
+    }
+    70% {
+        transform: translateX(0px);
+    }
+    71% {
+        transform: translateX(10px);
+    }
+    90% {
+        transform: translateX(10px);
+    }
+    91% {
+        transform: translateX(0px);
+    }
+}
+@keyframes brows{
+    from {
+        transform: translateY(0px);
+    }
+    40% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+    60% {
+        transform: translateY(-8px);
+    }
+    to {
+        transform: translateY(-8px);
+    }
+}
+@keyframes closeeyes {
+    from {
+        opacity:1;
+    }
+    35% {
+        opacity:1;
+    }
+    36% {
+        opacity:0;
+    }
+    40% {
+        opacity: 0;
+    }
+    41% {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+    }
+}
