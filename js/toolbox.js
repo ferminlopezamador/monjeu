@@ -1,3 +1,4 @@
+$(function(){;
 // Calcul du score
 var total = (document.getElementsByClassName('divColonne').length)
 var score = total - (document.getElementsByClassName('no-display').length);
@@ -102,7 +103,7 @@ setInterval(changerAnimVisage,5000);
 
 //SCENARIO
 // Début
-$('a#buttonIntro').click(function(){
+$('#intro').click(function(){
     $('link#cssPrincipal').attr('href','css/style.css');
     createDialBox('dialBox1');
     $('div.dialBox1').append('<a id="dessin" class="button">Récupérer élémént Dessin</a>');
@@ -406,6 +407,4 @@ function createDialBox8(){
   });
 }
 
-
-
-
+});

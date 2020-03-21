@@ -29,7 +29,7 @@ p {
     padding: 10px;
     font-size: 1.5em;
     border-radius: 10px;
-    height: 18px;
+    /* height: 18px; */
     letter-spacing: 1px;
     cursor: pointer;
     text-align: center;
@@ -307,7 +307,7 @@ span#score {
 /* Media Querie */
 @media screen and (max-width: 1214px) {
     .colonne {
-        height:2600px;
+        /* height:2600px; */
         flex-wrap: wrap;
     }
 }
@@ -315,6 +315,24 @@ span#score {
     .colonne {
         width:120px;
         flex-wrap: wrap;
+    }
+    #faceface {
+        bottom: -15px;
+        left: -20px;
+        width:200px;
+    }
+    footer a {
+        margin-left :160px;
+    }
+    .dialBox {
+        left: 155px;
+        bottom: 75px;
+    }
+    .button {
+        font-size: 1em;
+    }
+    #liste {
+        height: 3200px;
     }
     /* #dropzone {
         width:calc(100vw - 120px);
