@@ -6,7 +6,7 @@ Dans le cadre de ma formation je suis amené à mettre en application les connai
 
 ## Principe
 
-L'utilisateur doit combiner des éléments sous forme d'icônes affin d'obtenir d'autres élément et me découvrir. L'utilisateur aura aussi la possibilité de télécharger mon CV et visiter ma page Linkedin, Instagram et GitHub.
+L'utilisateur doit combiner des éléments sous forme d'icônes afin d'obtenir d'autres élément et me découvrir. L'utilisateur aura aussi la possibilité de télécharger mon CV et visiter ma page Linkedin, Instagram et GitHub.
 
 ## Technologies utilisées
 
