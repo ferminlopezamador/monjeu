@@ -21,31 +21,31 @@
 
 /* DialBox */
 .dialBox1 p:after {
-  content: 'début du jeu';
+  content: "Bienvenue dans mon jeu ! Le principe est simple : combinez les éléments pour obtenir des compétences et en savoir plus sur moi. Vous pouvez vous aider de la liste des éléments dans le menu. Voici le premier élément.";
 }
 .dialBox2 p:after {
-  content: 'deuxième élément';
+  content: "Voici l'élémént 'Formation'. C'est un élémént fondamental qui se combine avec de nombreux autres éléments (oui c'est un indice).";
 }
 .dialBox3 p:after {
-  content: 'après première fusion';
+  content: "Qui dit graphisme, dit suite Adobe. Les trois logiciels suivants sont indissociables du graphisme print.";
 }
 .dialBox4 p:after {
-  content: 'après dessin vectoriel -> digital';
+  content: "Après avoir longtemps travaillé dans le print, j'ai voulu en savoir plus sur le DiGITAL, et donc me former...";
 }
 .dialBox4-5 p:after {
-  content: 'après ux et dev';
+  content: "Le DIGITAL englobe plusieurs disciplines. Parmis celles-ci, le DÉVELOPPEMENT m'a particulièrement intéressé.";
 }
 .dialBox5 p:after {
-  content: 'après digital -> langages';
+  content: "Les langages HTML, CSS et JAVASCRIPT pour le côté front. Ce sont les trois langages basiques.";
 }
 .dialBox6 p:after {
-  content: 'framework';
+  content: "Avec les langages, il est important de connaître les FRAMEWORKS qui facilitent le développement, notament les frameworks JAVASCRIPT.";
 }
 .dialBox7 p:after {
-  content: 'après framework -> frameworks js';
+  content: "JAVASCRIPT a aussi la particularité d'être présent côté SERVEUR, avec d'autres langages issus du JAVASCRIPT. Là aussi il faudra se former...";
 }
 .dialBox8 p:after {
-  content: 'après serveur -> langages back';
+  content: "Voici les deux derniers éléments de ce jeu. Merci d'avoir joué et à bientôt !";
 }
 
 /* Contenu */
@@ -146,7 +146,7 @@
     content: 'Le Graphisme';
   }
   .graphisme p:after {
-    content:"L'art de mettre en forme l'image,le texte et le DESSIN.";
+    content:"L'art de mettre en forme l'image, le texte et le DESSIN.";
   }
 
 .html5 {
