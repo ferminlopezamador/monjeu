@@ -1,23 +1,23 @@
 
 /* Ensembles */
-#eyes {
+.eyes {
     opacity: 1;
     animation: closeeyes 4s ease infinite;
 }
-#moutha {
+.moutha {
     opacity: 0;
     animation: mouthaa 1s ease ;
 }
-#mouthi {
+.mouthi {
     opacity: 0;
 }
-#mouthm {
+.mouthm {
     opacity: 1;
 }
-#jaw {
+.jaw {
     animation: jaw 0.5s 1s ease;
 }
-#brows {
+.brows {
     animation: brows 1s 1s ease ;
 }
 

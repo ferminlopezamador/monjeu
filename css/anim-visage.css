@@ -171,33 +171,33 @@
 }
 
 /* Ensembles */
-#eyessemiclosed {
+.eyessemiclosed {
     opacity: 0;
 }
-#eyesClosed1 {
+.eyesClosed1 {
     opacity: 0;
 }
-#eyes {
+.eyes {
     opacity: 1;
     animation: closeeyes 4s ease infinite;
 }
-#moutha {
+.moutha {
     opacity: 0;
     animation: moutha 1s ease ;
 }
 #mouthi {
     opacity: 0;
 }
-#mouthf {
+.mouthf {
     opacity: 0;
 }
-#mouthm {
+.mouthm {
     opacity: 1;
 }
-#jaw {
+.jaw {
     animation: jaw 0.5s 1s ease;
 }
-#brows {
+.brows {
     animation: brows 1s 1s ease ;
 }
 

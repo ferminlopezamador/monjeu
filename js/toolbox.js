@@ -4,7 +4,6 @@ var total = (document.getElementsByClassName('divColonne').length)
 var score = total - (document.getElementsByClassName('no-display').length);
 
 function updateScore(){
-  // return score;
   console.log('compting');
   if (score == total) {
     $('.dialBox8').remove();
@@ -62,7 +61,7 @@ function makeUndroppable(element) {
 // Menu
 function createMenu(){
     $('body').append('<div class ="popup nav"></div>');
-    $('div.nav').append('<a id="reset" class="button block">Ranger les éléments</a><a id="resume" class="button block">Liste des éléments</a><a id="cv" class="button block">Télécharger mon CV</a><p></p><p class="block">pour en savoir plus sur moi</p><a class="button block" href="https://www.linkedin.com/in/fermin-lopez-amador/" target="_blank">Linkedin</a><a class="button block" href="https://instagram.com/ferminlopez_art" target="_blank">Instagram</a><a  class="button block" href="#" target="_blank">Github</a><p></p><p class="block">pour me contacter</p><a class="button block" href="mailto:ferminlopezamador@gmail.com">Mail</a>');
+    $('div.nav').append('<a id="reset" class="button block">Ranger les éléments</a><a id="resume" class="button block">Liste des éléments</a><a id="cv" class="button block">Télécharger mon CV</a><p></p><p class="block">pour en savoir plus sur moi</p><a class="button block" href="https://www.linkedin.com/in/fermin-lopez-amador/" target="_blank">Linkedin</a><a class="button block" href="https://instagram.com/ferminlopez_art" target="_blank">Instagram</a><a class="button block" href="https://github.com/ferminlopezamador" target="_blank">Github</a><p></p><p class="block">pour me contacter</p><a class="button block" href="mailto:ferminlopezamador@gmail.com">Mail</a>');
     $('a#reset').click(function() {
         $('div.divColonne').attr('style','position: relative; z-index: 1;');
     });
@@ -92,10 +91,11 @@ $('a#resume').click(function() {
   createList();
 });
 
+// Fonction faisant varier l'animation du visage de façon aléatoire
 function changerAnimVisage() {
-    var nombre = Math.floor(Math.random() * 4);
-    var tableauAnimations = ['moutha','moutho','rolleyes','smile'];
-    $('link#ficheAnimationTete').attr('href','css/anim-visage-'+ tableauAnimations[nombre] +'.css');
+    var nombre = Math.floor(Math.random() * 5);
+    var tableauAnimations = ['-moutha','-moutho','-rolleyes','-smile',''];
+    $('link#ficheAnimationTete').attr('href','css/anim-visage'+ tableauAnimations[nombre] +'.css');
 };
 changerAnimVisage();
 setInterval(changerAnimVisage,5000);

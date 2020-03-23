@@ -1,12 +1,12 @@
 /* Ensembles */
-#eyes {
+.eyes {
     opacity: 1;
     animation: closeeyessmile 1s 1s ease;
 }
-#moutha {
+.moutha {
     opacity: 0;
 }
-#mouthm {
+.mouthm {
     opacity: 1;
 }
 .st12 {
