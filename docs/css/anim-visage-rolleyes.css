@@ -1,0 +1,48 @@
+/* Ensembles */
+.eyes {
+    opacity: 1;
+    animation: closeeyessmile 1s 1s ease;
+}
+.moutha {
+    opacity: 0;
+}
+.mouthm {
+    opacity: 1;
+}
+.st12 {
+    animation:rolleyes 3s ease;
+  }
+
+/* Animation elements */
+@keyframes rolleyes {
+    from {
+        transform: translate(0px,0px);
+    }
+    5% {
+        transform: translate(0px,-8px);
+    }
+    25% {
+        transform: translate(0px,-8px);
+    }
+    28% {
+        transform: translate(5px,-8px);
+    }
+    50% {
+        transform: translate(5px,-8px);
+    }
+    52% {
+        transform: translate(5px,3px);
+    }
+    70% {
+        transform: translate(5px,3px);
+    }
+    72% {
+        transform: translate(0px,3px);
+    }
+    95% {
+        transform: translate(0px,3px);
+    }
+    to {
+        transform: translate(0px,0px);
+    }
+}

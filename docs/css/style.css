@@ -1,0 +1,394 @@
+/* fonts */
+h1,h2,h3,a,footer p {
+    font-family: 'Luckiest Guy', cursive;
+}
+h2 {
+    text-align: center;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+/* Gradients & colors*/
+.greengradient {
+    background: linear-gradient(to top,#006181,#00455c);
+}
+.greengradientdown {
+    background: linear-gradient(to bottom,#006181,#00455c);
+}
+.goldgradient {
+    background: linear-gradient(to right,#c6a100,#997c00);
+}
+/* green : #006181 */
+/* gold : #c6a100 */
+
+/* Button */
+.button {
+    background-color: white;
+    color: #006181;
+    box-shadow: #00455c 5px 5px 0;
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    /* height: 18px; */
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+    transition: all ease 0.2s;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #c6a100;
+    color: white;
+}
+#buttonIntro {
+    position: relative;
+    top: -50px;
+    transform: scale(1.5);
+}
+#menu {
+    z-index: 5;
+}
+/* header */
+header {
+    display: flex;
+    height: 80px;
+    width: 100vw;
+    align-items: center;
+    box-shadow: 0px 2px 8px #00455c;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform-origin: top;
+    animation: appearHeaderFooter 0.5s ease;
+}
+header img {
+    height: 80%;
+}
+header h1{
+    color: #c6a100;
+    line-height: 26px;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+header h1 span {
+    color: white;
+    font-size: 1.3em;
+}
+
+/* Faces */
+#faceface {
+    bottom: -25px;
+    left: -35px;
+    z-index: 11;
+    animation: faceAppear 0.2s cubic-bezier(0.7, 0, 0.86, 0.46);
+}
+#intro {
+    opacity: 0;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #006181;
+    border-radius: 50%;
+    animation: faceAppear 0.2s cubic-bezier(0.7, 0, 0.86, 0.46) reverse;
+}
+
+/* Containers */
+body {
+    width:100vw;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    background-color: #00455c;
+    background-image: url('../img/fond.svg');
+    background-size: 400px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    animation: background-img 10s linear infinite;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 300px;
+}
+.content {
+    width:100%;
+}
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+main {
+    display: flex;
+}
+#dropzone {
+    width:80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: appearColonne 0.5s ease;
+}
+
+/* Nav */
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+.nav p {
+    color:white;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-family: 'Luckiest Guy', cursive;
+}
+.block {
+    display: block;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Colonne */
+.colonne {
+    height:1400px;
+    width: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    top: 80px;
+    position: relative;
+    transform-origin: right;
+    
+}
+.divColonne {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    cursor: grab;
+    animation: apparition ease-in 0.2s;
+}
+
+/* Popup */
+.popup {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 69, 92,0.9);
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    transform-origin: center;
+    animation: apparition ease-in 0.2s;
+}
+.popup:hover {
+    cursor: pointer;
+}
+.divPopup {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: apparition ease-in 0.2s;
+}
+.divPopup h2 {
+    color: white;
+    letter-spacing: 1px;
+    position: relative;
+    font-size: 36px;
+    top: -150px;
+}
+.divPopup p {
+    color: white;
+    letter-spacing: 1px;
+    position: relative;
+    top: 150px;
+}
+
+/* Liste */
+#liste {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 500px;
+    position: absolute;
+    z-index: 4;
+    left: calc(50% - 250px);
+    background-color: rgb(0, 69, 92,0.9);
+    height:3500px
+}
+ #liste > h2 {
+     color: white;
+     font-size: 36px;
+     margin: 30px 0;
+ }
+.divListe {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 20px;
+}
+.divListe h2 {
+    margin: 0 0 0 120px;
+    letter-spacing: 1px;
+    text-align: left;
+
+}
+.divListe p {
+    margin: 10px 0 0 120px;
+    width:300px;
+}
+
+/* Dial Box */
+.dialBox {
+    position: fixed;
+    left: 225px;
+    bottom: 100px;
+    width: 50vw;
+    background-color:#dfcd7c;
+    /* z-index: 12; */
+    /* box-shadow: 0px 2px 8px #00455c; */
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 5;
+}
+.dialBox a {
+    margin: 10px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    z-index: 5;
+    box-shadow: #00455c 0 -2px 8px;
+    height: 80px;
+    transform-origin: bottom;
+    animation: appearHeaderFooter 0.5s ease;
+}
+footer a {
+    margin-left: 220px;
+}
+footer p {
+    color: white;
+    font-size: 1.5em;
+    margin: 0 30px;
+    text-align: center;
+}
+span#score,span#total {
+    font-size: 1.3em;
+}
+span#score {
+    color:#c6a100;
+}
+/* Media Querie */
+@media screen and (max-width: 1214px) {
+    .colonne {
+        /* height:2600px; */
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 768px) {
+    .colonne {
+        width:120px;
+        flex-wrap: wrap;
+    }
+    #faceface {
+        bottom: -15px;
+        left: -20px;
+        width:200px;
+    }
+    footer a {
+        margin-left :160px;
+    }
+    .dialBox {
+        left: 155px;
+        bottom: 75px;
+    }
+    .button {
+        font-size: 1em;
+    }
+    #liste {
+        height: 3200px;
+    }
+    /* #dropzone {
+        width:calc(100vw - 120px);
+    } */
+    @keyframes appearColonne {
+        from {
+            width:0;
+        }
+        to {
+            width:120px;
+        }
+    }
+}
+/* Animation */
+@keyframes background-img {
+    from {
+        background-position-x: 0px;
+        background-position-y: 0px;
+    }
+    to {
+        background-position-x: -400px;
+        background-position-y: 400px;
+    }
+}
+@keyframes apparition {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@keyframes appearHeaderFooter {
+    from {
+        height:0px;
+    }
+    to {
+        height:80px;
+    }
+}
+@keyframes appearColonne {
+    from {
+        width:100vw;
+    }
+    to {
+        width:80vw;
+    }
+}
+
+@keyframes faceAppear {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

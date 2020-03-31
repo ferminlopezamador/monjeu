@@ -1,0 +1,73 @@
+/* Ensembles */
+.eyes {
+    opacity: 1;
+    animation: closeeyessmile 1s 1s ease;
+}
+.eyesClosed2 {
+    opacity: 1;
+    animation: closeeyessmile 1s 1s ease;
+}
+.moutha {
+    opacity: 0;
+}
+.mouthi {
+    opacity: 0;
+    animation: smile 1s 1s ease;
+}
+.mouthm {
+    opacity: 1;
+}
+.jaw {
+    animation: jaw 0.5s 1s ease;
+}
+.brows {
+    animation: brows 1s 1s ease ;
+}
+
+/* Animation elements */
+
+@keyframes brows{
+    from {
+        transform: translateY(0px);
+    }
+    40% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+    60% {
+        transform: translateY(-8px);
+    }
+    to {
+        transform: translateY(-8px);
+    }
+}
+@keyframes smile {
+    from {
+        opacity: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@keyframes closeeyessmile {
+    from {
+        opacity: 1;
+    }
+    1% {
+        opacity: 0;
+    }
+    99% {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
